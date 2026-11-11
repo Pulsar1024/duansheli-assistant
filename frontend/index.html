@@ -4,6 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>断舍离物品管理系统</title>
+button:hover {
+    opacity: 0.85;
+    cursor: pointer;
+}
 <style>
 html {
     scroll-behavior: smooth;
@@ -179,6 +183,9 @@ input, select{
 <div class="wrap-center" id="authPage">
     <div class="auth-box">
         <h2>断舍离物品管理系统</h2>
+        <p style="color:#666;margin:10px 0;">
+    ✨ 断舍离助理：帮你整理个人物品，规划取舍，管理种草清单
+</p>
         <div class="tabs">
             <div class="tab active" id="tabLogin" onclick="switchAuth('login')">登录</div>
             <div class="tab" id="tabReg" onclick="switchAuth('reg')">注册</div>
@@ -641,5 +648,10 @@ function renderStats(){
 
 init();
 </script>
+<div style="text-align:center;margin-top:30px;color:#888;">
+    <p>工程项目认知实践 · 断舍离助理 v1.1</p>
+    <p>© 2026 个人物品管理系统</p>
+</div>
+
 </body>
 </html>
