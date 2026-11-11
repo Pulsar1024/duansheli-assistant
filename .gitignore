@@ -1,0 +1,8 @@
+# 依赖包
+backend/node_modules/
+package-lock.json
+
+# 日志、临时文件
+*.log
+.DS_Store
+Thumbs.db
