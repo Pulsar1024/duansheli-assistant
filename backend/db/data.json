@@ -1,0 +1,30 @@
+{
+  "users": {
+    "May": {
+      "password": "123456",
+      "items": [
+        {
+          "id": 1794235061189,
+          "name": "红色跑车",
+          "category": "其他",
+          "status": "待丢弃"
+        },
+        {
+          "id": 1794405901490,
+          "name": "墨镜",
+          "category": "衣物",
+          "status": "使用中"
+        }
+      ],
+      "wish": [
+        {
+          "id": 1794235041555,
+          "name": "降噪耳机",
+          "price": 2499,
+          "coolDays": 7,
+          "needLevel": 2
+        }
+      ]
+    }
+  }
+}
